@@ -16,7 +16,7 @@ const [imgUrl,setImgUrl] = useState(null)
             price:data.price,
             imgUrl:imgUrl
         };
-        const url =`http://localhost:5000/admin`//https://protected-eyrie-35744.herokuapp.com/admin
+        const url =`https://radiant-river-00649.herokuapp.com/admin`
       
          fetch(url,{
              method:'POST',
